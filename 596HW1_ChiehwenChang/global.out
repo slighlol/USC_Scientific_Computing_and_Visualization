@@ -1,0 +1,42 @@
+----------------------------------------
+Begin PBS Prologue Wed Sep 24 02:43:47 PDT 2014
+Job ID:            9671092.hpc-pbs.hpcc.usc.edu
+Username:          chiehwen
+Group:             csci-ar
+Name:              global
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc1985 hpc1986 
+PVFS:              /scratch (124G), /staging (328T)
+TMPDIR:            /tmp/9671092.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Wed Sep 24 02:44:05 PDT 2014
+----------------------------------------
+Node 2 has 2.000000e+00
+Node 3 has 3.000000e+00
+Node 1 has 1.000000e+00
+Node 0 has 0.000000e+00
+Global sum = 1.500000e+00
+Node 1 has 1.000000e+00
+Node 2 has 2.000000e+00
+Node 3 has 3.000000e+00
+Node 0 has 0.000000e+00
+Node 5 has 5.000000e+00
+Node 6 has 6.000000e+00
+Node 7 has 7.000000e+00
+Node 4 has 4.000000e+00
+Global sum = 3.500000e+00
+----------------------------------------
+Begin PBS Epilogue Wed Sep 24 02:44:08 PDT 2014
+Job ID:           9671092.hpc-pbs.hpcc.usc.edu
+Username:         chiehwen
+Group:            csci-ar
+Job Name:         global
+Session:          11118
+Limits:           neednodes=2:ppn=4,nodes=2:ppn=4,walltime=00:00:59
+Resources:        cput=00:00:00,mem=3232kb,vmem=144060kb,walltime=00:00:03
+Queue:            quick
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Wed Sep 24 02:44:15 PDT 2014
+----------------------------------------
