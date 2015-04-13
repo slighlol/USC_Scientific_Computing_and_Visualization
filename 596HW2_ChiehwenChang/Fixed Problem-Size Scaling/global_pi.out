@@ -1,0 +1,33 @@
+----------------------------------------
+Begin PBS Prologue Tue Sep 30 19:31:59 PDT 2014
+Job ID:            9733680.hpc-pbs.hpcc.usc.edu
+Username:          chiehwen
+Group:             csci-ar
+Name:              global_pi
+Queue:             main
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc2047 hpc2048 hpc2049 hpc2050 hpc2051 hpc2057 hpc2059 hpc2060 hpc2061 hpc2063 hpc2064 hpc2065 hpc2066 hpc2067 hpc2068 hpc2069 
+PVFS:              /scratch (987G), /staging (328T)
+TMPDIR:            /tmp/9733680.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Tue Sep 30 19:32:17 PDT 2014
+----------------------------------------
+Pi = 3.141605   Used Time = 0.018949
+Pi = 3.141595   Used Time = 0.035547
+Pi = 3.141593   Used Time = 0.069809
+Pi = 3.141593   Used Time = 0.138350
+Pi = 3.141593   Used Time = 0.275731
+----------------------------------------
+Begin PBS Epilogue Tue Sep 30 19:32:19 PDT 2014
+Job ID:           9733680.hpc-pbs.hpcc.usc.edu
+Username:         chiehwen
+Group:            csci-ar
+Job Name:         global_pi
+Session:          19658
+Limits:           neednodes=16:ppn=1,nodes=16:ppn=1,walltime=00:00:59
+Resources:        cput=00:00:00,mem=3232kb,vmem=144064kb,walltime=00:00:02
+Queue:            main
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Tue Sep 30 19:32:26 PDT 2014
+----------------------------------------
