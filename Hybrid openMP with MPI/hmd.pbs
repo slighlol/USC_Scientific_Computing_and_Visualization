@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=8,arch=x86_64
+#PBS -l walltime=00:00:59
+#PBS -o hmd.out
+#PBS -j oe
+#PBS -N hmd
+#PBS -A lc_an2
+WORK_HOME=/home/rcf-proj2/an2/chiehwen
+cd $WORK_HOME
+echo '8 threads'
+mpirun -np 1 -machinefile $PBS_NODEFILE ./hmd8
+echo '4 threads'
+mpirun -np 1 -machinefile $PBS_NODEFILE ./hmd4
+echo '2 threads'
+mpirun -np 1 -machinefile $PBS_NODEFILE ./hmd2
+echo '1 threads'
+mpirun -np 1 -machinefile $PBS_NODEFILE ./hmd1

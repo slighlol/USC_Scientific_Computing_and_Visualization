@@ -1,0 +1,13 @@
+#! /bin/bash
+#PBS -l nodes=1:ppn=1,gpus=1
+#PBS -l walltime=00:00:59
+#PBS -o pdf2.out
+#PBS -j oe
+#PBS -N pdf2
+#PBS -A lc_an2
+source /usr/usc/cuda/default/setup.sh
+cd /home/rcf-proj2/an2/chiehwen
+echo '##### CPU: gcc -O -o pdf0 pdf0.c -lm #####'
+./pdf0
+echo '##### GPU: nvcc -O -o pdf2 pdf2.cu   #####'
+./pdf2

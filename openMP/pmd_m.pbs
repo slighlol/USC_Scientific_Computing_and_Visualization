@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -l nodes=4:ppn=4,arch=x86_64
+#PBS -l walltime=00:02:00
+#PBS -o pmd_m.out
+#PBS -j oe
+#PBS -N pmd_m
+#PBS -A lc_an2
+WORK_HOME=/home/rcf-proj2/an2/chiehwen
+cd $WORK_HOME
+np=$(cat $PBS_NODEFILE | wc -l)
+echo "*****Asynchronous*****"
+mpirun -np $np -machinefile $PBS_NODEFILE ./pmd_m
+echo "*****Synchronous******"
+mpirun -np $np -machinefile $PBS_NODEFILE ./pmd

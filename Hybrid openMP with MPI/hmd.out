@@ -1,0 +1,43 @@
+----------------------------------------
+Begin PBS Prologue Fri Oct 31 18:10:43 PDT 2014
+Job ID:            9888523.hpc-pbs.hpcc.usc.edu
+Username:          chiehwen
+Group:             csci-ar
+Name:              hmd
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc2078 hpc2304 
+PVFS:              /scratch (124G), /staging (328T)
+TMPDIR:            /tmp/9888523.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Fri Oct 31 18:10:59 PDT 2014
+----------------------------------------
+al = 4.103942e+01 4.103942e+01 2.051971e+01
+lc = 16 16 8
+rc = 2.564964e+00 2.564964e+00 2.564964e+00
+nglob = 55296
+ 0.050000  0.877345 -5.137153 -3.821136
+ 0.100000  0.462056 -4.513097 -3.820013
+ 0.150000  0.510836 -4.587287 -3.821033
+ 0.200000  0.527457 -4.611958 -3.820772
+ 0.250000  0.518668 -4.598798 -3.820796
+ 0.300000  0.529023 -4.614343 -3.820808
+ 0.350000  0.532890 -4.620133 -3.820798
+ 0.400000  0.536070 -4.624899 -3.820794
+ 0.450000  0.539725 -4.630387 -3.820799
+ 0.500000  0.538481 -4.628514 -3.820792
+CPU & COMT = 3.636527e+01 2.454419e+00
+----------------------------------------
+Begin PBS Epilogue Fri Oct 31 18:11:38 PDT 2014
+Job ID:           9888523.hpc-pbs.hpcc.usc.edu
+Username:         chiehwen
+Group:            csci-ar
+Job Name:         hmd
+Session:          31106
+Limits:           neednodes=2:ppn=4,nodes=2:ppn=4,walltime=00:00:59
+Resources:        cput=00:02:23,mem=67760kb,vmem=844440kb,walltime=00:00:38
+Queue:            quick
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Fri Oct 31 18:11:44 PDT 2014
+----------------------------------------

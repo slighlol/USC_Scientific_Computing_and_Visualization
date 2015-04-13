@@ -1,0 +1,31 @@
+----------------------------------------
+Begin PBS Prologue Sat Nov 15 14:05:40 PST 2014
+Job ID:            10039133.hpc-pbs.hpcc.usc.edu
+Username:          chiehwen
+Group:             csci-ar
+Name:              pdf2
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc3025 
+TMPDIR:            /tmp/10039133.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Sat Nov 15 14:05:40 PST 2014
+----------------------------------------
+##### CPU: gcc -O -o pdf0 pdf0.c -lm #####
+Execution time (s) = 3.830000e+00
+##### GPU: nvcc -O -o pdf2 pdf2.cu   #####
+Execution time (s) = 2.000000e-01
+----------------------------------------
+Begin PBS Epilogue Sat Nov 15 14:05:45 PST 2014
+Job ID:           10039133.hpc-pbs.hpcc.usc.edu
+Username:         chiehwen
+Group:            csci-ar
+Job Name:         pdf2
+Session:          63879
+Limits:           gres=gpus:1,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=00:00:59
+Resources:        cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:05
+Queue:            quick
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Sat Nov 15 14:05:45 PST 2014
+----------------------------------------
